@@ -24,8 +24,7 @@ netsal=basic+da-it;
 }
 void employee::disp()
 {
-cout<<num<<"\t"<<name<<"\t\t\t"<<basic<<"\t\t"<<da<<"\t\t"<<it<<"
-\t\t" <<gsal<<"\t"<<netsal<<"\n";
+cout<<num<<"\t"<<name<<"\t\t\t"<<basic<<"\t\t"<<da<<"\t\t"<<it<<"\t\t" <<gsal<<"\t"<<netsal<<"\n";
 }
 int main()
 {
@@ -39,8 +38,7 @@ p=&e[i];
 p->read();
 p->calc();
 }
-cout<<"sl no. eid\t name \t\t basic salary\t \t DA\t\tgross 
-salary\t income tax\t Net salary\n";
+cout<<"sl no. eid\t name \t\t basic salary\t \t DA\t\tgross salary\t income tax\t Net salary\n";
 for(int i=0;i<n;i++)
 {
 p=&e[i];
