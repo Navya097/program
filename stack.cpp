@@ -3,7 +3,7 @@ using namespace std;
 #define size 5
 class stack
 {
-int stck[size];
+int stack[size];
 int tos;
 public:
  void init();
@@ -25,7 +25,7 @@ return;
 }
 cout<<"enter element \n";
 cin>>i;
-stck[tos]=i;
+stack[tos]=i;
 tos++;
 }
 int stack::pop()
@@ -36,7 +36,7 @@ cout<<"stack underflow \n";
 return 1;
 }
 tos--;
- cout<<”popped element is”<<stck[tos];
+ cout<<"popped element is"<<stack[tos];
 return 0;
 }
 void stack::display()
@@ -48,7 +48,7 @@ return;
 }
 for(int i=0;i<tos;i++)
 {
-cout<<stck[i]<<"\n";
+cout<<stack[i]<<"\n";
 }
 }
 int main()
